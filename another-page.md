@@ -5,7 +5,7 @@ layout: default
 ## Welcome to another page
 
 <script src="//d3js.org/d3.v3.min.js"></script>
-
+<script>
 <style>
 
 .node {
