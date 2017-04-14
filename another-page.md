@@ -11,6 +11,7 @@ _yay_
 [back](./)
 
 Hell
+
 <script src="https://d3js.org/d3.v4.js"></script>
 <div id="viz"></div>
    <script type="text/javascript">
@@ -30,3 +31,14 @@ Hell
        .on("mouseout", function(){d3.select(this).style("fill", "white");});
 
    </script>
+
+<script src="https://wzrd.in/standalone/function-plot@1.17.3"></script>
+
+<script>
+functionPlot({
+  target: '#quadratic',
+  data: [{
+    fn: 'x^2'
+  }]
+})
+</script>
