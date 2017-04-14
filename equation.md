@@ -4,6 +4,12 @@
 ">
 </script>
 
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script src="https://wzrd.in/standalone/function-plot@1.17.3"></script>
+
+
+
 Do I contradict myself?··
 Very well then I contradict myself,··
 (I am large, I contain multitudes.)..
@@ -20,6 +26,25 @@ $$x[n+m]=\displaystyle\frac{1}{2\pi w[m]}\int \limits_{0}^{2\pi}X[n,\lambda)e^{j
 ```python
 
 ```
+functionPlot({
+  target: '#annotations',
+  yAxis: {domain: [-1, 9]},
+  data: [{
+    fn: 'x^2'
+  }],
+  annotations: [{
+    x: -1
+  }, {
+    x: 1,
+    text: 'x = 1'
+  }, {
+    y: 2,
+    text: 'y = 2'
+  }]
+})
+
+
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -40,4 +65,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                                
