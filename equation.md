@@ -1,3 +1,8 @@
+<script type="text/javascript"
+	src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML,
+	/javascripts/MathJaxLocal.js
+">
+</script>
 
 Do I contradict myself?··
 Very well then I contradict myself,··
