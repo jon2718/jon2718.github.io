@@ -4,6 +4,12 @@ layout: default
 
 ## Welcome to another page
 
+
+
+_yay_
+
+[back](./)
+
 <script src="https://d3js.org/d3.v4.js"></script>
 <div id="viz"></div>
    <script type="text/javascript">
@@ -23,7 +29,3 @@ layout: default
        .on("mouseout", function(){d3.select(this).style("fill", "white");});
 
    </script>
-
-_yay_
-
-[back](./)
