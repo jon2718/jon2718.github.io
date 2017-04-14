@@ -96,26 +96,6 @@ d3.json("../../../../scripts/miserables.json", function(error, graph) {
 </script>
 
 
-<script>
-functionPlot({
-  target: '#annotations',
-  yAxis: {domain: [-1, 9]},
-  data: [{
-    fn: 'x^2'
-  }],
-  annotations: [{
-    x: -1
-  }, {
-    x: 1,
-    text: 'x = 1'
-  }, {
-    y: 2,
-    text: 'y = 2'
-  }]
-})
-
-</script>
-
 <div id="disqus_thread"></div>
 <script>
 
