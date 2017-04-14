@@ -26,6 +26,21 @@ $$x[n+m]=\displaystyle\frac{1}{2\pi w[m]}\int \limits_{0}^{2\pi}X[n,\lambda)e^{j
 ```python
 
 ```
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+</style>
+
+<style>
 functionPlot({
   target: '#annotations',
   yAxis: {domain: [-1, 9]},
@@ -43,7 +58,7 @@ functionPlot({
   }]
 })
 
-
+</style>
 
 <div id="disqus_thread"></div>
 <script>
