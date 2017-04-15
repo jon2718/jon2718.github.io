@@ -10,7 +10,19 @@ _yay_
 
 [back](./)
 
-Hell
+
+<head>
+ <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+ <script type="text/javascript" src="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+</head>
+
+<div id="box" class="jxgbox" style="width:500px; height:500px;"></div>
+<script type="text/javascript">
+ var b = JXG.JSXGraph.initBoard('box', {boundingbox: [-10, 10, 10, -10], axis:true});
+ var p1 = b.createElement('point',[0,0], {name:'A',size: 4, face: 'o'});
+ var p2 = b.createElement('point',[2,-1], {name:'B',size: 4, face: 'o'});
+ var ci = b.createElement('circle',["A","B"], {strokeColor:'#00ff00',strokeWidth:2});
+</script>
 
 <script src="https://d3js.org/d3.v4.js"></script>
 <div id="viz"></div>
@@ -31,14 +43,3 @@ Hell
        .on("mouseout", function(){d3.select(this).style("fill", "white");});
 
    </script>
-
-<script src="https://wzrd.in/standalone/function-plot@1.17.3"></script>
-
-<script>
-functionPlot({
-  target: '#quadratic',
-  data: [{
-    fn: 'x^2'
-  }]
-})
-</script>
