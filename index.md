@@ -7,6 +7,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 [Link to another page](another-page).
 
 [Link to yet another page](equation).
+[Link to yet another page](standalone).
 
 There should be whitespace between paragraphs.
 
