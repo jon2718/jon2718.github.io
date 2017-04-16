@@ -358,7 +358,7 @@ layout = {
   separators: '.,',
   showlegend: true,
   smith: false,
-  title: '$\text{ }\\ \text{ }\\ \text{Bessel Functions of the First Kind for } \nu = 0, 1, 2, 3,\, 4$',
+  title: '$\text{ }\\ \text{ }\\ \text{Bessel Functions of the First Kind for } \nu = 0, 1, 2, 3,\, 4$',
   titlefont: {
     color: '#444',
     family: '"Droid Sans", sans-serif',
