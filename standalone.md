@@ -14,6 +14,8 @@
 </script>
 
 
+<div id="my-graph" style="width:600px;height:250px;"></div>
+
 <script>
 Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', function(err, rows){
 var YEAR = 2007;
