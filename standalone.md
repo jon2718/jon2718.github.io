@@ -42,3 +42,13 @@ var data = continents.map(function(continent) {
       }
   };
 });
+
+var layout = {
+  xaxis: {title: 'Life Expectancy'},
+  yaxis: {title: 'GDP per Capita', type: 'log'},
+  margin: {t: 20},
+  hovermode: 'closest'
+};
+Plotly.plot('my-graph', data, layout, {showLink: false});
+});
+</script>
