@@ -53,7 +53,7 @@ Plotly.plot('my-graph', data, layout, {showLink: false});
 </script>
 
 
- <div id="plotly-div" style="width:1000px;height:1000px;"></div>
+<div id="plotly-div" style="width:1000px;height:1000px;"></div>
 
 <script>
 trace1 = {
