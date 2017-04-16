@@ -52,7 +52,6 @@ Plotly.plot('my-graph', data, layout, {showLink: false});
 });
 </script>
 
-<div id="plotly-div" style="width:600px;height:250px;"></div>
 <div id="my-graph" style="width:600px;height:250px;"></div>
 
 <script>
