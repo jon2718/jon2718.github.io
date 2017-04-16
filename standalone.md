@@ -52,6 +52,27 @@ Plotly.plot('my-graph', data, layout, {showLink: false});
 });
 </script>
 
+
+<div id="matlab-basic-line" style="width:600px;height:250px;"></div>
+
+<script>
+x = linspace(-2*pi,2*pi);
+y1 = sin(x);
+y2 = cos(x);
+
+fig = figure;
+plot(x,y1,x,y2);
+
+%--PLOTLY--%
+
+% Strip MATLAB style by default!
+response = fig2plotly(fig, 'filename', 'matlab-basic-line');
+plotly_url = response.url;
+
+</script>
+
+
+
 <script>
  (function () {
    var functionPlot = window.functionPlot;
