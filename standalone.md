@@ -44,26 +44,6 @@ var data = continents.map(function(continent) {
 });
 
 
-// You can reproduce this figure in plotly.js with the following code!
-
-// Learn more about plotly.js here: https://plot.ly/javascript/getting-started
-
-/* Here's an example minimal HTML template
- *
- * <!DOCTYPE html>
- *   <head>
- *     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
- *   </head>
- *   <body>
- *   <!-- Plotly chart will be drawn inside this div -->
- *   <div id="plotly-div"></div>
- *     <script>
- *     // JAVASCRIPT CODE GOES HERE
- *     </script>
- *   </body>
- * </html>
- */
-
 <div id="plotly-div"></div>
 
 <script>
