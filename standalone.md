@@ -49,7 +49,7 @@ var data = continents.map(function(continent) {
       }
   };
 });
-
+</script>
 
 <div id="plotly-div"></div>
 
