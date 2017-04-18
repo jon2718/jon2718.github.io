@@ -1,5 +1,6 @@
 ---
 layout: default
+htmlwidgets: TRUE
 ---
 
 ## Welcome to standalone
